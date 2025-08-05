@@ -37,7 +37,7 @@ const LoginPage = () => {
           <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
             <div className="text-center items-center justify-center mb-6">
               <img src={logo} alt="logo" className="mx-auto mb-4 w-[150px]" />
-              <h2 className="text-3xl font-bold text-blue-800">SMK CITRA NEGARA</h2>
+              <h2 className="text-3xl font-bold text-blue-800">SMA CITRA NEGARA</h2>
             </div>
             <form onSubmit={handleLogin} className="space-y-4">
               <div>
