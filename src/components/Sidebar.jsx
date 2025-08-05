@@ -39,7 +39,7 @@ const Sidebar = () => {
 
   return (
     <div className="h-screen w-64 bg-green-800 text-white flex flex-col shadow-lg border-r border-white">
-      <div className="text-2xl font-bold p-6 border-b border-green-700 text-center">SMK CITRA NEGARA</div>
+      <div className="text-2xl font-bold p-6 border-b border-green-700 text-center">SMA CITRA NEGARA</div>
       <nav className="flex-1 px-4 py-6 space-y-2">
         <SidebarItem icon={<LayoutDashboard size={20} />} label="Dashboard" to="/dashboard" />
         <SidebarItem icon={<Users size={20} />} label="User" to="/user" />
